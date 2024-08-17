@@ -1,4 +1,5 @@
-﻿string[] kahve = new string[5];
+//5 elemanlı kahve dizisi oluşturdum.
+string[] kahve = new string[5];
 
 for (int i = 0; i < kahve.Length; i++)
 {
@@ -6,7 +7,7 @@ for (int i = 0; i < kahve.Length; i++)
     string coffe = Console.ReadLine();
     kahve[i] = coffe;
 }
-
+//Girilen kahve seçimlerini konolda yazdırıyprum.
 Console.WriteLine("\n-----Kahve Seçimleriniz-----");
 for (int i = 0;i < kahve.Length;i++)
 {
